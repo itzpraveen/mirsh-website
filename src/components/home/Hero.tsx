@@ -23,9 +23,16 @@ export function Hero() {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="max-w-2xl space-y-6"
                 >
-                    <div className="inline-flex items-center space-x-2 bg-primary/20 text-primary px-4 py-1 rounded-full text-sm font-bold uppercase tracking-widest backdrop-blur-sm border border-primary/20 mb-4">
-                        <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                        <span>Instant Action Formula</span>
+                    {/* Technical Metadata Display */}
+                    <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[10px] md:text-xs font-mono text-primary tracking-[0.2em] uppercase mb-6 border-l border-primary/40 pl-4 py-1">
+                        <span className="flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 bg-primary rounded-sm animate-[pulse_3s_infinite]" />
+                            System: Bio-Active
+                        </span>
+                        <span className="text-white/20">|</span>
+                        <span>Ver: 2.0</span>
+                        <span className="text-white/20">|</span>
+                        <span>Ref: #MIRSH-01</span>
                     </div>
 
                     <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold font-oswald text-white uppercase tracking-tighter leading-[0.9] drop-shadow-2xl">
