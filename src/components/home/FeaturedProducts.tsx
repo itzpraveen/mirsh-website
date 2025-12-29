@@ -24,7 +24,7 @@ export function FeaturedProducts() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {FEATURED_PRODUCTS.map((product) => (
                         <Card key={product.id} className="bg-white/5 border-white/10 overflow-hidden group hover:border-primary/50 transition-colors">
-                            <CardHeader className="p-0">
+                            <CardHeader className="p-0 z-10">
                                 <div className="aspect-square relative bg-white/5">
                                     <Image
                                         src={product.image}
@@ -34,6 +34,16 @@ export function FeaturedProducts() {
                                     />
                                     <div className="absolute top-4 right-4 bg-black/80 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider text-white">
                                         {product.category}
+                                    </div>
+
+                                    {/* Technical Overlay */}
+                                    <div className="absolute bottom-0 left-0 right-0 bg-black/95 border-t border-primary/30 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+                                        <div className="grid grid-cols-2 gap-x-2 gap-y-1 text-[10px] font-mono uppercase text-muted-foreground">
+                                            <div>Active: <span className="text-white">Bio-Enzymes</span></div>
+                                            <div>pH Level: <span className="text-white">7.0 (Neutral)</span></div>
+                                            <div>Surface: <span className="text-white">Multi</span></div>
+                                            <div>Origin: <span className="text-white">Lab-Grown</span></div>
+                                        </div>
                                     </div>
                                 </div>
                             </CardHeader>
