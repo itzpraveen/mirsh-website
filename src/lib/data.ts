@@ -8,17 +8,17 @@ export const NAV_LINKS = [
 export const PILLARS = [
     {
         title: "FAST",
-        description: "Results in minutes, not hours. Optimized for the daily hustle.",
+        description: "Active foaming action lifts dirt instantly. Zero dwell time required.",
         icon: "Zap"
     },
     {
         title: "SAFE",
-        description: "Lab-tested formulas that respect your materials. No harsh chemicals.",
+        description: "pH-neutral formulas engineered for delicate suedes, nubuck, and technical knits.",
         icon: "ShieldCheck"
     },
     {
         title: "FREE FROM",
-        description: "No dyes, no excess fragrances, no compromise. Pure performance.",
+        description: "No acetone. No bleach. No aerosols. Just pure, concentrated cleaning power.",
         icon: "Droplets"
     }
 ];
@@ -26,25 +26,25 @@ export const PILLARS = [
 export const FEATURED_PRODUCTS = [
     {
         id: "cleaner-premium",
-        name: "Premium Foam Cleaner",
+        name: "Bio-Foam Cleanser",
         tagline: "The Daily Driver",
-        description: "A gentle yet effective foaming solution for all materials.",
+        description: "Enzymatic solution that attacks dirt at the molecular level. Safe for all textures.",
         image: "/images/product-cleaner.png",
         category: "Cleaning",
     },
     {
         id: "protector-spray",
-        name: "Nano-Shield Protector",
+        name: "Nano-Shield Coat",
         tagline: "Invisible Armor",
-        description: "Superhydrophobic coating that repels liquids and stains.",
+        description: "SiO2-infused superhydrophobic barrier. Repels liquids, blocks UV rays.",
         image: "/images/product-protector.png",
         category: "Protection",
     },
     {
         id: "brush-kit",
-        name: "Essential Brush Kit",
-        tagline: "The Right Tools",
-        description: "Hog hair and synthetic bristles for detailed cleaning.",
+        name: "Precision Toolset",
+        tagline: "Surgical Detail",
+        description: "Hog hair for uppers, stiff synthetic for soles. The exact tools for the job.",
         image: "/images/product-kit.png",
         category: "Accessories",
     }

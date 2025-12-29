@@ -29,14 +29,14 @@ export function Hero() {
                     <h1 className="text-5xl md:text-8xl lg:text-9xl font-bold font-oswald text-white uppercase tracking-tighter leading-none">
                         Respect<br />Your Rotation
                     </h1>
-                    <p className="max-w-xl mx-auto text-lg text-muted-foreground md:text-xl">
-                        Lab-tested formulas designed to clean, protect, and restore your sneakers without compromise.
+                    <p className="max-w-xl mx-auto text-lg text-muted-foreground md:text-xl font-light">
+                        Advanced biotechnology meets street-ready performance. Keep your grail pairs in deadstock condition.
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-4 pt-8">
                         <Link href="/products">
-                            <Button size="lg" className="h-14 px-8 text-lg uppercase tracking-wider bg-primary hover:bg-primary/90 text-white">
-                                Shop Collection
+                            <Button size="lg" className="h-14 px-8 text-lg uppercase tracking-wider bg-primary hover:bg-primary/90 text-white font-bold">
+                                Upgrade Your Kit
                             </Button>
                         </Link>
                         <Link href="/dealer">
