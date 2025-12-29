@@ -8,7 +8,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     {/* Brand */}
                     <div className="space-y-4">
-                        <h3 className="text-2xl font-bold font-oswald tracking-tighter uppercase">MIRSH.LAB</h3>
+                        <h3 className="text-2xl font-bold font-oswald tracking-tighter uppercase">MIRSH</h3>
                         <p className="text-muted-foreground text-sm max-w-xs">
                             Premium care for your rotation. Formulated in the lab, tested on the streets.
                         </p>

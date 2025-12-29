@@ -38,7 +38,7 @@ export function Navbar() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="text-2xl font-bold tracking-tighter uppercase font-oswald pl-2">
-                    MIRSH<span className="text-primary">.</span>LAB
+                    MIRSH<span className="text-primary">.</span>
                 </Link>
 
                 {/* Desktop Nav */}
