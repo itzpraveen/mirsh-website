@@ -10,10 +10,10 @@ export function Hero() {
         <section className="relative h-screen min-h-[800px] flex items-center overflow-hidden">
             {/* Background Image */}
             <div
-                className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
+                className="absolute inset-0 z-0 bg-cover bg-[65%_center] md:bg-center bg-no-repeat"
                 style={{ backgroundImage: "url('/images/hero-banner-action.png')" }}
             >
-                <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent" /> {/* Gradient Overlay for text readability */}
+                <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black/60 md:bg-gradient-to-r md:from-black/90 md:via-black/40 md:to-transparent" /> {/* Mobile: localized gradient for text readability */}
             </div>
 
             <div className="container relative z-10 px-6">
@@ -59,6 +59,6 @@ export function Hero() {
             >
                 <div className="w-px h-16 bg-gradient-to-b from-transparent via-white/50 to-transparent" />
             </motion.div>
-        </section>
+        </section >
     );
 }
