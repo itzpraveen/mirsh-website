@@ -21,7 +21,7 @@ export function Hero() {
                     initial={{ opacity: 0, x: -50 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="max-w-2xl space-y-6"
+                    className="max-w-3xl space-y-6 md:pl-24 lg:pl-48"
                 >
                     {/* Technical Metadata Display */}
                     <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[10px] md:text-xs font-mono text-primary tracking-[0.2em] uppercase mb-6 border-l border-primary/40 pl-4 py-1">
